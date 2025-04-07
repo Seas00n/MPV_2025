@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yuxuan/Project/MPV_2025/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Project/orbbec_ws/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Project/HPS_Perception/map_ws/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Downloads/ocs2_ws/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Project/Pros_Ctrl/sensor_ws/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Project/Pros_Ctrl/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/yuxuan/Downloads/hpp-centroidal-dynamics/build/python",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/home/yuxuan/Project/ORC",
+        "/home/yuxuan/Project/MPV_2025/src/mpv_moco/scripts"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yuxuan/Project/MPV_2025/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Project/orbbec_ws/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Project/HPS_Perception/map_ws/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Downloads/ocs2_ws/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Project/Pros_Ctrl/sensor_ws/devel/lib/python3/dist-packages",
+        "/home/yuxuan/Project/Pros_Ctrl/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/yuxuan/Downloads/hpp-centroidal-dynamics/build/python",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/home/yuxuan/Project/ORC",
+        "/home/yuxuan/Project/MPV_2025/src/mpv_moco/scripts"
+    ]
+}

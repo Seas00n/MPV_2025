@@ -1,0 +1,5 @@
+mpv_moco
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_moco/cmake.lock /home/yuxuan/Project/MPV_2025/devel/./cmake.lock
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_moco/share/mpv_moco/cmake/mpv_mocoConfig.cmake /home/yuxuan/Project/MPV_2025/devel/share/mpv_moco/cmake/mpv_mocoConfig.cmake
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_moco/share/mpv_moco/cmake/mpv_mocoConfig-version.cmake /home/yuxuan/Project/MPV_2025/devel/share/mpv_moco/cmake/mpv_mocoConfig-version.cmake
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_moco/lib/pkgconfig/mpv_moco.pc /home/yuxuan/Project/MPV_2025/devel/lib/pkgconfig/mpv_moco.pc

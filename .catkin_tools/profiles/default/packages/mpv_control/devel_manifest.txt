@@ -1,0 +1,5 @@
+mpv_control
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_control/cmake.lock /home/yuxuan/Project/MPV_2025/devel/./cmake.lock
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_control/share/mpv_control/cmake/mpv_controlConfig-version.cmake /home/yuxuan/Project/MPV_2025/devel/share/mpv_control/cmake/mpv_controlConfig-version.cmake
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_control/share/mpv_control/cmake/mpv_controlConfig.cmake /home/yuxuan/Project/MPV_2025/devel/share/mpv_control/cmake/mpv_controlConfig.cmake
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_control/lib/pkgconfig/mpv_control.pc /home/yuxuan/Project/MPV_2025/devel/lib/pkgconfig/mpv_control.pc

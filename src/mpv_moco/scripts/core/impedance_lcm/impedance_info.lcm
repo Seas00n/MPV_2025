@@ -1,0 +1,12 @@
+package exlcm;
+
+struct impedance_info
+{
+    double para_phase1[6];
+    double para_phase2[6];
+    double para_phase3[6];
+    double para_phase4[6];
+    double velocity_estimated;
+    double slope_estimated;
+    double para_jerk[6];
+}

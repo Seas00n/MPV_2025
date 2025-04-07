@@ -1,0 +1,1 @@
+/home/yuxuan/Project/MPV_2025/devel/.private/yesense_imu/share/roseus/ros/yesense_imu/manifest.l
