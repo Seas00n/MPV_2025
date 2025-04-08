@@ -1,1 +1,0 @@
-/home/yuxuan/Project/MPV_2025/devel/.private/yesense_imu/share/gennodejs/ros/yesense_imu/msg/YesenseImuNavData.js

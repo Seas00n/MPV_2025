@@ -1,8 +1,0 @@
-prefix=/home/yuxuan/Project/MPV_2025/install
-
-Name: mpv_moco
-Description: Description of mpv_moco
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
