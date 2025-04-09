@@ -26,4 +26,4 @@ idx_swing_extension = 3
 pros_log_path = parent_dir+"/pros_log/"
 six_force_buffer_path = pros_log_path+"six_force_data.npy"
 pros_state_buffer_path = pros_log_path+"pros_state_data.npy" # qk, qa, kpk, kbk, qek, kpa, kba, qea, phase
-data_save_path = "/home/yuxuan/Desktop/Huang307/"
+data_save_path = parent_dir+"/../data/imp_tuned/"

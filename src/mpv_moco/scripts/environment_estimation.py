@@ -52,13 +52,10 @@ def sync_callback(data:PointCloud2, imu_data:Imu):
             imu_data.orientation.y,
             imu_data.orientation.z,
             imu_data.orientation.w]
-    # TODO: 旋转矩阵调整
-    ######################################################################
     R_com = Rotation.from_euler('XYZ', [0,0,90], degrees=True).as_matrix()
-    ######################################################################
     pcd = pcd_data[0:-1:2, :]
     R_world_imu = Rotation.from_quat(quat).as_matrix()
-    R_imu_cam = Rotation.from_euler("xyz", [0,0,0], degrees=True).as_matrix()
+    R_imu_cam = Rotation.from_euler("xyz", [0,0,90], degrees=True).as_matrix()
     R_world_cam = R_world_imu@R_imu_cam
     Rz = Rotation.from_matrix(R_world_cam).as_euler("ZXY",degrees=True)
     Rz = Rotation.from_euler("ZXY", [Rz[0], 0, 0], degrees=True)
