@@ -1,0 +1,6 @@
+devel_space: /home/yuxuan/Project/MPV_2025/devel
+install: false
+install_space: /home/yuxuan/Project/MPV_2025/install
+profile: default
+source_space: /home/yuxuan/Project/MPV_2025/src
+workspace: /home/yuxuan/Project/MPV_2025

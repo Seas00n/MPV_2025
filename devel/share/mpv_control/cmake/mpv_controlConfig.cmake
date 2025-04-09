@@ -1,0 +1,1 @@
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_control/share/mpv_control/cmake/mpv_controlConfig.cmake

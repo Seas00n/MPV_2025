@@ -1,0 +1,8 @@
+prefix=/home/yuxuan/Project/MPV_2025/install
+
+Name: mpv_control
+Description: Description of mpv_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

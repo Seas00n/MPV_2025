@@ -115,9 +115,8 @@ def main():
         except queue.Empty:
             # this will be thrown when the timeout is hit
             break
-        else:
-            publish_pcd_origin(pcd_pub=pcd_pub, pcd=item)
-            rate.sleep()
+        publish_pcd_origin(pcd_pub=pcd_pub, pcd=item)
+        rate.sleep()
     cam.stopCapture()
     rospy.is_shutdown("")
 

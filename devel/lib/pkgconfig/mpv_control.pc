@@ -1,0 +1,1 @@
+/home/yuxuan/Project/MPV_2025/devel/.private/mpv_control/lib/pkgconfig/mpv_control.pc
