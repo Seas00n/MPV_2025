@@ -876,7 +876,7 @@ class pcd_operator_system(object):
             elif self.corner_situation == 10:
                 self.w_stair = self.Ecenter[0]-self.Dcenter[0]
                 self.h_stair = self.Dcenter[1]-self.Ecenter[1]
-        elif self.env_type == 3:
+        elif self.env_type == 5:
             self.w_stair = self.Dcenter[0]-self.Ccenter[0]
             self.h_stair = self.Ccenter[1]-self.Bcenter[1]
             self.d_obs = self.Ccenter[0]

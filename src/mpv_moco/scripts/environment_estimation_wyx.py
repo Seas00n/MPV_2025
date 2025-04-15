@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import numpy as np
 import os
 import time
@@ -64,25 +62,19 @@ def sync_callback(data:PointCloud2, imu_data:Imu):
     R_world_cam = Rz.inv().as_matrix()@R_world_cam
     R_world_cam = R_com@R_world_cam 
     pcd_in_track = (R_world_cam@(pcd.T)).T
-    x_ = np.logical_and(np.where(pcd_in_track[:,0]>0.01,True,False),
+    x_ = np.logical_and(np.where(pcd_in_track[:,0]>0.5,True,False),
                         np.where(pcd_in_track[:,0]<0.8,True,False))
     y_ = np.logical_and(np.where(pcd_in_track[:,1]>-0.3,True,False),
                         np.where(pcd_in_track[:,1]<0.3,True,False))
     z_ = np.logical_and(np.where(pcd_in_track[:,2]>-1.3,True,False),
-                        np.where(pcd_in_track[:,2]<0,True,False))
+                        np.where(pcd_in_track[:,2]<-0.5,True,False))
     chosen_idx = np.logical_and.reduce((x_,y_,z_))
-    pcd_send = pcd_in_track[chosen_idx,:] # 变换后的点云
-    # pcd_send = pcd_in_track[:]
+    # pcd_send = pcd_in_track[chosen_idx,:]
+    pcd_send = pcd_in_track[:]
     header = Header()
     header.stamp = rospy.Time.now()
     header.frame_id = "world"
     pcd_pub.publish(pcl2.create_cloud_xyz32(header=header, points=pcd_send))
-    env = Environment()                          
-    env.pcd_to_binary_image(pcd_send,) #转2dimage
-    env.thin()
-    env.classification_from_img()
-    env.plot_binary_image()
-
 
 def public_static_tf(tf_pub):
     tf_world_base = TransformStamped()
